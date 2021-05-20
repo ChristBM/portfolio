@@ -1,0 +1,30 @@
+.menu__list {
+    max-width: 600px;
+    height: 30px;
+}
+.menu__links {
+    font-size: 1.3rem;
+}
+.menu__list-elemnt {
+    width: 65px;
+    height: 28px;
+}
+.barskill {
+    max-width: 500px;
+}
+.barskill__title {
+    font-size: 1.4rem;
+}
+.card1 {
+    max-width: 500px;
+    min-height: 250px;
+}
+.card1__img-container {
+    background-size: contain;
+}
+.card1__resum {
+    font-size: 1.3rem;
+}
+.card1__title {
+    font-size: 1.5rem;
+}

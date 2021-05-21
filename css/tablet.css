@@ -9,11 +9,17 @@
     width: 65px;
     height: 28px;
 }
+.skills {
+    gap: 30px;
+}
 .barskill {
-    max-width: 500px;
+    max-width: 600px;
 }
 .barskill__title {
-    font-size: 1.4rem;
+    font-size: 1.9rem;
+}
+.works {
+    margin-block-start: 80px;
 }
 .card1 {
     max-width: 500px;
@@ -21,10 +27,11 @@
 }
 .card1__img-container {
     background-size: contain;
+    border-radius: 30px;
 }
 .card1__resum {
-    font-size: 1.3rem;
+    font-size: 1.7rem;
 }
 .card1__title {
-    font-size: 1.5rem;
+    font-size: 1.9rem;
 }

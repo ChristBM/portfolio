@@ -22,21 +22,22 @@ html {
     scroll-behavior: smooth;
 }
 body {
-    background: rgb(244, 244, 244);
+    background: var(--gray-background);
 }
 header {
     width: 100%;
     height: 500px;
     display: grid;
     grid-template-columns: repeat(2,1fr);
-    grid-template-rows: 1fr 4fr 50px;
+    grid-template-rows: 30px 4fr 50px;
 }
 /* Header-Menu */
 .menu {
-    grid-area: 1/1/2/3;
     width: 100%;
     height: 100%;
-    background-color: var(--gray-background);
+    position: sticky;
+    top: 5px;
+    z-index: 3;
 }
 .menu__nav {
     width: 100%;
@@ -54,6 +55,8 @@ header {
     list-style: none;
     box-shadow:inset 5px 5px 10px #FFF,inset -5px -5px 15px #dbe0e7;
     border-radius: 10px;
+    background-color: var(--gray-background);
+    
 }
 .menu__list-elemnt {
     width: 55px;
@@ -182,8 +185,9 @@ header {
     width: 100%;
     height: 30px;
     z-index: -1;
-    border-radius: 0 0 10px 10px;
+    border-radius: 0 0 30px 30px;
     background: var(--gray-background);
+    border-bottom: solid 1px var(--primary-color);
 }
 /* --------------------------------- */
 /* Main-Services */
@@ -194,11 +198,12 @@ main {
 }
 .services {
     width: 100%;
-    height: 550px;
+    height: 650px;
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin: 100px 0 80px 0;
+    padding: 35px 0 35px 0;
+    margin: 70px 0 50px 0;
 }
 .section__text {
     width: 150px;
@@ -228,15 +233,15 @@ main {
 }
 .cards__container {
     width: 100%;
-    height: 400px;
+    height: 440px;
     display: flex;
     overflow-x:scroll;
     overscroll-behavior-x: contain;
     scroll-snap-type: x mandatory;
     scroll-behavior: smooth;
     gap: 30px;
-    margin-block-start: 30px;
-    padding-inline: 50px;
+    margin: 30px 10px 0 10px;
+    padding: 40px 60px;
 }
 .cards__container::-webkit-scrollbar {
     height: 10px;
@@ -257,7 +262,7 @@ main {
     border-radius: 10px;
     border: 1px solid var(--primary-color);
     background-color: var(--gray-background);
-    box-shadow: 18px 18px 30px #D1D9E6, -18px -18px 30px #FFF;
+    box-shadow: 15px 15px 30px #D1D9E6, -15px -15px 30px #FFF;
 }
 .card__icon {
     grid-row: 1/2;
@@ -314,6 +319,7 @@ main {
     flex-direction: column;
     align-items: center;
     gap: 15px;
+    padding: 35px 0 35px 0;
 }
 .barskill {
     width: 80%;
@@ -361,7 +367,8 @@ main {
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin: 50px 0 150px 0;
+    margin: 50px 0 60px 0;
+    padding: 35px 0 35px 0;
 }
 .cards1__container {
     width: 100%;
@@ -370,7 +377,7 @@ main {
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
-    gap: 50px;
+    gap: 70px;
     margin-block-start: 40px;
 }
 .card1 {
@@ -440,7 +447,9 @@ main {
     display: flex;
     flex-direction: column;
     align-items: center;
-    border-radius: 10px 10px 0 0;
+    gap: 20px;
+    border-radius: 30px 30px 0 0;
+    border-top: solid 1px var(--primary-color);
     padding-block-start: 20px;
     background: var(--gray-background);
 }

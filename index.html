@@ -26,7 +26,7 @@
     </section>
     <header id="home">
         <section class="introduction">
-            <div class="introduction__image">
+            <div class="introduction__image selectDisable">
                 <div class="introduction__neumorphism">
                     <div class="introduction__photo">
                         <img class="introduction__img" src="./assets/img/cristal1.png" alt="">
@@ -37,7 +37,7 @@
                 <p class="introduction__name">Christian Boffill</p>
                 <p class="introduction__resum">A passionate Frontend Developer</p>
             </div>
-            <button class="introduction__cv">
+            <button class="introduction__cv selectDisable">
                 <a class="download__link" href="./assets/img/presentation_card.png"  download="Contact Me">Download CV</a>
             </button>
         </section>
@@ -45,9 +45,12 @@
         <section class="slider">
             <div class="slider__container">
                 <div class="slider__container-int">
-                    <img class="photos" src="./assets/img/work1.jpg" alt="">
-                    <img class="photos" src="./assets/img/work2a.jpg" alt="">
-                    <img class="photos" src="./assets/img/work3.jpg" alt="">
+                    <div class="photos selectDisable">
+                        <img src="./assets/img/work1.jpg" alt="">
+                        <img src="./assets/img/work2a.jpg" alt="">
+                        <img src="./assets/img/work3.jpg" alt="">
+                        <img src="./assets/img/work4.png" alt="">
+                    </div>
                 </div>
             </div>
         </section>
@@ -167,7 +170,7 @@
                 <article class="card1">
                     <div class="card1__img-container work1"></div>
                     <div class="card1__texts">
-                        <a class="card1__title" href="#" target="_blank">Batatabit</a>
+                        <a class="card1__title" href="https://github.com/ChristBM/batatabit" target="_blank">Batatabit</a>
                         <p class="card1__resum">Durante el curso de Maquetación Mobile-First de Platzi nos tocó desarrollar la interfaz para la empresa Batatabit, aplicando las tendencias actuales de la maquetación web.</p>
                     </div>
                 </article>
@@ -175,7 +178,7 @@
                 <article class="card1">
                     <div class="card1__img-container work2"></div>
                     <div class="card1__texts">
-                        <a class="card1__title" href="#" target="_blank">Myblog</a>
+                        <a class="card1__title" href="#" target="_blank">Mi blog</a>
                         <p class="card1__resum">Este es un blog completamente funcional y utilizable, es el resultado de un reto propuesto en el curso práctico de maquetación con CSS en Platzi. Usen el código si lo desean.</p>
                     </div>
                 </article>
@@ -183,8 +186,16 @@
                 <article class="card1">
                     <div class="card1__img-container work3"></div>
                     <div class="card1__texts">
-                        <a class="card1__title" href="https://github.com/ChristBM/portfolio" target="_blank">My Portfolio</a>
+                        <a class="card1__title" href="https://github.com/ChristBM/portfolio" target="_blank">Mi Portafolio</a>
                         <p class="card1__resum">Una forma de dejar constancia de mi trabajo y habilidades adquiridas en el desarrollo web. Y por si alguien necesita de mis servicios como desarrollador.</p>
+                    </div>
+                </article>
+                <!-- Animationland -->
+                <article class="card1">
+                    <div class="card1__img-container work4"></div>
+                    <div class="card1__texts">
+                        <a class="card1__title" href="https://github.com/ChristBM/animationland" target="_blank">Animationland</a>
+                        <p class="card1__resum">Les presento un sencillo juego echo solo con CSS3 y un poco de HTML. Un divertido reto del Curso de Animaciones con CSS de Platzi. </p>
                     </div>
                 </article>
             </div>
@@ -209,7 +220,7 @@
         </section>
     </main>
     <footer>
-        <div class="holder">
+        <div class="holder selectDisable">
             <div class="thanks">Thanks for watching :)</div>
         </div>
     </footer>

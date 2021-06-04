@@ -22,7 +22,7 @@ Segú los consejos que personas que la han visitado, me recomiendan:
 * [ ] Flecha goToUp
 * [ ] Transiciones o Animaciones
 * [x] Favicon
-* [ ] Actualizar los enlaces a los trabajos
+* [x] Actualizar los enlaces a los trabajos
 
 ## Futuro :rocket:
 Me interesa ir agregándole cosas nuevas al portafolio, tanto visuales como en el código sin romper la estética inicial.

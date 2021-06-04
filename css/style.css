@@ -144,7 +144,9 @@ header {
 .introduction__name {
     font-family: "KoHo";
     font-size: 3.5rem;
+    letter-spacing: 2px;
     color: var(--text-color);
+    text-shadow: -2px -2px 7px rgba(255, 255, 255, 1), 3px 3px 7px rgb(150, 163, 182);
 }
 .introduction__resum {
     justify-self: flex-start;
@@ -187,7 +189,7 @@ header {
     z-index: -1;
     border-radius: 0 0 30px 30px;
     background: var(--gray-background);
-    border-bottom: solid 1px var(--primary-color);
+    box-shadow: 0px 5px 20px rgba(166, 180, 200, 0.7);
 }
 /* --------------------------------- */
 /* Main-Services */
@@ -218,7 +220,9 @@ main {
 .section__title {
     font-size: 2.5rem;
     font-family: 'KoHo';
+    letter-spacing: 1px;
     color: var(--text-color);
+    text-shadow: -2px -2px 8px rgba(255, 255, 255, 1), 2px 2px 8px rgb(150, 163, 182);
 }
 .section__resum-container {
     width: 120px;
@@ -319,7 +323,7 @@ main {
     flex-direction: column;
     align-items: center;
     gap: 15px;
-    padding: 35px 0 35px 0;
+    padding: 30px 0 35px 0;
 }
 .barskill {
     width: 80%;
@@ -368,7 +372,7 @@ main {
     flex-direction: column;
     align-items: center;
     margin: 50px 0 60px 0;
-    padding: 35px 0 35px 0;
+    padding: 30px 0 35px 0;
 }
 .cards1__container {
     width: 100%;
@@ -446,15 +450,15 @@ main {
 .contact {
     grid-area: 4/1/5/2;
     width: 100%;
-    height: 250px;
+    height: 260px;
     display: flex;
     flex-direction: column;
     align-items: center;
     gap: 20px;
     border-radius: 30px 30px 0 0;
-    border-top: solid 1px var(--primary-color);
     padding-block-start: 20px;
     background: var(--gray-background);
+    box-shadow: 0px -5px 20px rgba(166, 180, 200, 0.7);
 }
 .contact__container {
     width: 100%;
@@ -468,23 +472,33 @@ main {
     display: flex;
     flex-direction: row;
     align-items: center;
-    justify-content: space-around;
-    margin-block-start: 30px;
+    justify-content: center;
+    gap: 30px;
+    margin-block-start: 40px;
 }
-.contact__linkedin {
-    width: 50px;
-    height: 50px;
+.contact__linkedin, .contact__github, .contact__twitter, .contact__platzi {
+    width: 45px;
+    height: 45px;
     display: flex;
     justify-content: center;
     align-items: center;
-    border-radius: 20px;
+    border-radius: 35%;
     background-image: url('../assets/img/linkedin.svg');
     background-position: center;
     background-repeat: no-repeat;
     background-size: contain;
     box-shadow: 18px 18px 30px #D1D9E6, -18px -18px 30px #FFF;
 }
-.contact__linkedin:active {
+.contact__github {
+    background-image: url('../assets/img/githublogo.svg');
+}
+.contact__twitter {
+    background-image: url('../assets/img/twitter.svg');
+}
+.contact__platzi {
+    background-image: url('../assets/img/platzi.svg');
+}
+.contact__linkedin:active, .contact__github:active, .contact__twitter:active, .contact__platzi:active  {
     width: 45px;
     height: 45px;
     box-shadow: -18px -18px 30px #D1D9E6, 18px 18px 30px #FFF;

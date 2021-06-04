@@ -15,10 +15,12 @@ Por tanto esta página está optimizada para diferentes dispositivos. Usa una es
 
 ## Tareas de mejora :white_check_mark:
 Segú los consejos que personas que la han visitado, me recomiendan:
+
 * [x] Menú Sticky
 * [x] Mejoras en los textos
 * [x] Espaciados de las Cards
 * [ ] Modo Nocturno
+* [x] Redes Sociales de Trabajo
 * [ ] Flecha goToUp
 * [ ] Transiciones o Animaciones
 * [x] Favicon

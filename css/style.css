@@ -136,10 +136,12 @@ header {
     opacity: 0.8;
     transform-style: preserve-3d;
     transform-origin: 20px;
+    transition-duration: 1s;
+    transition-timing-function: ease-out;
 }
 .introduction__img:hover {
     transform: rotateY(135deg);
-    transition: transform 1s ease-out ;
+    transition: transform 1s ease-in-out ;
 }
 .introduction__text {
     width: 100%;

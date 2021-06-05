@@ -22,7 +22,7 @@ Segú los consejos que personas que la han visitado, me recomiendan:
 * [ ] Modo Nocturno
 * [x] Redes Sociales de Trabajo
 * [ ] Flecha goToUp
-* [ ] Transiciones o Animaciones
+* [x] Transiciones o Animaciones
 * [x] Favicon
 * [x] Actualizar los enlaces a los trabajos
 

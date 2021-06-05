@@ -26,7 +26,6 @@
     align-items: center;
     border-radius: 20px;
     background-color: var(--gray-background);
-    /* box-shadow: 18px 18px 30px #bdc5d1, -18px -18px 30px #FFF; */
 }
 .slider__container-int {
     width: 100%;

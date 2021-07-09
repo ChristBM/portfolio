@@ -467,7 +467,7 @@ main {
     100% {     
         transform: translateX(0);
     }
-  }
+}
 .card1__img-container {
     width: 40%;
     height: 94%;
@@ -491,6 +491,9 @@ main {
 }
 .work4 {
     background-image: url('../assets/img/work4.png');
+}
+.work5 {
+    background-image: url('../assets/img/work5.jpg');
 }
 .card1__texts {
     width: 55%;

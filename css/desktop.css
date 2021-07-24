@@ -42,16 +42,16 @@
     justify-content: flex-end;
     align-items: center;
     gap: 20px;
-    animation: slide1 12s linear infinite;
+    animation: slide 15s linear infinite;
 }
 .photos > img {
     width: 180px;
     height: 93%;
     align-items: center;
 }
-@keyframes slide1 {
+@keyframes slide {
     0% {
-        transform: translateX(150%);
+        transform: translateX(250%);
     }
     100% {
         transform: translateX(-100%);

@@ -632,3 +632,32 @@ footer {
     -o-user-select: none;
     user-select: none;
 }
+/* Banner promocional de Platzi */
+.banner__platzi {
+    width: 200px;
+    height: 80px;
+    z-index: 2;
+    box-shadow: 1px 1px 15px rgb(125, 203, 42);
+    transition: 500ms;
+}
+.banner__platzi p {
+    text-align: center;
+    font-size: 1.3rem;
+}
+.banner__platzi-imgcontainer {
+    width: 200px;
+    height: auto;
+}
+.banner__platzi a {
+    text-decoration: none;
+    width: 200px;
+    height: auto;
+}
+.banner__platzi a img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+.banner__platzi:hover {
+    transform: scale(1.4);
+}

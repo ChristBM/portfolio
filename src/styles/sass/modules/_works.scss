@@ -1,0 +1,21 @@
+/* Main-Works */
+.works {
+  display: flex;
+  width: 100%;
+  height: auto;
+  margin-block: 60px;
+  padding-block-start: 35px;
+  flex-direction: column;
+  align-items: center;
+}
+
+.cards1__container {
+  display: flex;
+  width: 100%;
+  height: auto;
+  margin-block: 40px;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 70px;
+}

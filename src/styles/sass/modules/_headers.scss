@@ -1,0 +1,125 @@
+header {
+  display: grid;
+  width: 100%;
+  height: 400px;
+  grid-template-columns: repeat(2,1fr);
+  grid-template-rows: 30px 1fr 50px;
+}
+
+.introduction {
+  grid-area: 2/1/3/3;
+  display: flex;
+  width: 100%;
+  height: 100%;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  background-color: $white-color;
+
+  &__image {
+    display: flex;
+    width: 170px;
+    height: 170px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 25%;
+    box-shadow: inset 5px 5px 10px $shadow-gray-color, inset -5px -5px 10px white;
+    background-color: $white-color;
+  }
+
+  &__photo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  &__text {
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  &__name {
+    z-index: 2;
+    @include font-style( $font-princp, normal, $font-size-h, 2px, $gray-color );
+  }
+
+  &__resum {
+    justify-self: flex-start;
+    @include font-style( $font-secundary, normal, $font-size-p, 0, $gray-color );
+  }
+
+  &__cv {
+    display: flex;
+    width: 150px;
+    height: 30px;
+    position: relative;
+    margin-top: 10px;
+    justify-content: center;
+    align-items: center;
+    border-style: none;
+  }
+
+  &__cv::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    border-radius: 40px;
+    box-shadow: -3px -3px 10px white, 3px 3px 10px $shadow-dark-color;
+    background: $white-color;
+  }
+
+  &__cv::after {
+    content: '';
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    border-radius: 40px;
+    background: $main-color;
+  }
+
+  &__cv:hover::after {
+    display: flex;
+  }
+
+  &__cv:active  {
+    transform: scale(0.9);
+  }
+
+  .download__link {
+    width: 150px;
+    height: 30px;
+    padding-block-start: 3px;
+    z-index: 2;
+    text-decoration: none;
+    border-radius: 40px;
+    text-align: center;
+    cursor: pointer;
+    @include font-style( $font-secundary, normal, $font-size-p, 1px, $gray-color );
+  }
+
+  .download__link:active {
+    transform: scale(0.90);
+  }
+
+}
+
+/* Header-Bottom Border */
+.border {
+  grid-area: 3/1/4/3;
+  width: 100%;
+  height: 30px;
+  position: relative;
+  z-index: -1;
+  background: $white-color;
+  border-radius: 0 0 30px 30px;
+  box-shadow: 0px 2px 10px $shadow-dark-color;
+}

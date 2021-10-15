@@ -1,0 +1,79 @@
+.skills {
+  display: grid;
+  width: 100%;
+  height: auto;
+  margin-block-start: 60px;
+  padding-block-start: 35px;
+  padding-inline: 40px;
+  grid-template-rows: auto repeat( 5, auto );
+  row-gap: 20px;
+
+  &__section-pos {
+    grid-row: 1/2;
+    place-self: center;
+    margin-block-end: 0;
+  }
+
+  &__ecosystem {
+    grid-row: 2/3;
+  }
+
+  &__design {
+    grid-row: 3/4;
+  }
+
+  &__layout {
+    grid-row: 4/5;
+  }
+
+  &__javascript {
+    grid-row: 5/6;
+  }
+
+  &__react {
+    grid-row: 6/7;
+  }
+
+}
+
+.skills__type-title {
+  text-align: center;
+  margin-block: 20px;
+  @include font-style( $font-princp, bold, $font-size-sub, 1px, $gray-color );
+}
+
+.skills__icon_container {
+  display: flex;
+  width: 100%;
+  height: auto;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  gap: 10px;
+}
+
+.minicard__container:hover {
+  opacity: 0.8;
+}
+
+.minicard__container {
+  display: flex;
+  width: 100px;
+  height: 150px;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  border: 1px solid $main-color;
+  border-radius: 10px;
+  box-shadow: 10px 10px 20px $shadow-gray-color, -10px -10px 20px white;
+}
+
+.minicard__tool_icon {
+  width: 80px;
+  height: 100px;
+  object-fit: contain;
+}
+
+.minicard__subtitle {
+  text-align: center;
+  @include font-style( $font-secundary, normal, $font-size-p, 0, $gray-color );
+}

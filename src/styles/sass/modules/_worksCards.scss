@@ -1,0 +1,91 @@
+.card1 {
+  display: flex;
+  width: 95%;
+  height: 350px;
+  justify-content: space-around;
+  align-items: center;
+  border-radius: 10px;
+  border: 2px solid $main-color;
+  background-color: $white-color;
+  box-shadow: 18px 18px 30px $shadow-gray-color, -18px -18px 30px white;
+  transition-duration: 0.5s;
+
+  &__texts {
+    display: flex;
+    width: 55%;
+    height: 100%;
+    padding: 10px 5px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  &__title {
+    margin-block: 10px;
+    justify-self: center;
+    text-decoration: none;
+    text-align: center;
+    @include font-style( $font-princp, bold, $font-size-sub, 1px, $gray-color );
+  }
+
+  &__resum {
+    text-align: center;
+    @include font-style( $font-secundary, normal, $font-size-p, 0, $gray-color );
+  }
+
+  &__img-container {
+    width: 110px;
+    height: 200px;
+    object-fit: contain;
+    border-radius: 5px;
+  }
+
+  &__btn_container {
+    display: flex;
+    width: 100%;
+    height: auto;
+    padding-block-end: 10px;
+    justify-content: space-evenly;
+  }
+
+  &__btn {
+    display: flex;
+    width: 35px;
+    height: 35px;
+    border-style: none;
+    justify-content: center;
+    align-items: center;
+  }
+
+  &__btn:hover {
+    transform: scale(1.1);
+  }
+
+  &__btn_link {
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+    text-decoration: none;
+    text-align: center;
+    cursor: pointer;
+  }
+
+  &__btn-icon_repo {
+    @include set-background( url('../../assets/img/github-icon.svg'), cover, center, no-repeat );
+  }
+
+  &__btn-icon_deploy {
+    @include set-background( url('../../assets/img/rocket-deploy.svg'), cover, center, no-repeat );
+  }
+
+}
+
+.card1:active {
+  transform: scale(1.1);
+  transition-timing-function: ease-in;
+  transition-property: transform;
+}
+
+.card1:hover {
+  animation: shake 0.8s ease-in-out 1 ;
+}

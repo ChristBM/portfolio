@@ -1,0 +1,15 @@
+.thanks {
+    animation-duration: 20s;
+}
+
+@media screen and (min-width: 1570px){
+
+    .cards__container {
+        justify-content: space-evenly;
+    }
+
+    .cards__container::-webkit-scrollbar-thumb {
+        display: none;
+    }
+
+}

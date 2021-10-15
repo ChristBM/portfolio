@@ -1,0 +1,43 @@
+@font-face {
+    font-family: 'KoHo';
+    font-style: normal;
+    font-weight: 700;
+    src: local(''), url('../../assets/fonts/koho-v6-latin-700.woff') format('woff');
+}
+
+/* Variables */
+$font-princp: 'KoHo', Helvetica, Arial, sans-serif;
+$font-secundary: Helvetica, Arial, sans-serif;
+
+$main-color: #53D2BB;
+$white-color: #EEF0F5;
+$gray-color: #686868;
+$shadow-gray-color: #dbe0e7;
+$shadow-white-color: rgba(white,0.8);
+$shadow-dark-color: rgba(166, 180, 200, 0.7);
+$shadow-text-color: #96a3b6;
+
+$font-size-p: 1.6rem;
+$font-size-sub: 2rem;
+$font-size-h: 2.4rem;
+$font-size-xxl: 3.8rem;
+
+@mixin font-style( $family, $weight, $f-size, $letterSpacing, $f-color ) {
+    font-family: $family;
+    font-weight: $weight;
+    line-height: calc-line-Height($f-size);
+    font-size: $f-size;
+    letter-spacing: $letterSpacing;
+    color: $f-color;
+}
+
+@mixin set-background( $b-url, $b-size, $b-position, $b-repeat) {
+    background-image: $b-url;
+    background-size: $b-size;
+    background-position: $b-position;
+    background-repeat: $b-repeat;
+}
+
+@function calc-line-Height($size) {
+    @return $size * 1.4;
+}

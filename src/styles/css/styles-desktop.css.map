@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA,AAAA,OAAO,CAAC;EACJ,kBAAkB,EAAE,GAAG;CAC1B;;AAED,MAAM,CAAC,MAAM,MAAM,SAAS,EAAE,MAAM;EAEhC,AAAA,iBAAiB,CAAC;IACd,eAAe,EAAE,YAAY;GAChC;EAED,AAAA,iBAAiB,AAAA,yBAAyB,CAAC;IACvC,OAAO,EAAE,IAAI;GAChB",
+    "sources": [
+        "../sass/styles-desktop.scss"
+    ],
+    "names": [],
+    "file": "styles-desktop.css"
+}

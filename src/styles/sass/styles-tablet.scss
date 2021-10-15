@@ -1,0 +1,41 @@
+@import "./modules/_variables.scss";
+
+.menu {
+
+  &__list{
+    max-width: 600px;
+    height: 35px;
+  }
+
+  &__links {
+    font-size: $font-size-sub;
+    padding-block-start: 2px;
+  }
+
+  &__list-elemnt {
+    width: 100px;
+    height: 28px;
+    padding-block-start: 2px;
+  }
+
+}
+
+.services, .skills, .works  {
+  padding-block-start: 50px;
+}
+
+.card1 {
+  max-width: 400px;
+  min-height: 250px;
+
+  &__img-container {
+    width: 125px;
+    height: 250px;
+    background-size: contain;
+  }
+
+  &__title {
+    font-size: $font-size-h;
+  }
+
+}

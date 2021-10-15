@@ -1,0 +1,16 @@
+.thanks {
+  -webkit-animation-duration: 20s;
+          animation-duration: 20s;
+}
+
+@media screen and (min-width: 1570px) {
+  .cards__container {
+    -webkit-box-pack: space-evenly;
+        -ms-flex-pack: space-evenly;
+            justify-content: space-evenly;
+  }
+  .cards__container::-webkit-scrollbar-thumb {
+    display: none;
+  }
+}
+/*# sourceMappingURL=styles-desktop.css.map */

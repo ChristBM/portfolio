@@ -1,0 +1,46 @@
+@font-face {
+  font-family: 'KoHo';
+  font-style: normal;
+  font-weight: 700;
+  src: local(""), url("../../assets/fonts/koho-v6-latin-700.woff") format("woff");
+}
+
+/* Variables */
+.menu__list {
+  max-width: 600px;
+  height: 35px;
+}
+
+.menu__links {
+  font-size: 2rem;
+  -webkit-padding-before: 2px;
+          padding-block-start: 2px;
+}
+
+.menu__list-elemnt {
+  width: 100px;
+  height: 28px;
+  -webkit-padding-before: 2px;
+          padding-block-start: 2px;
+}
+
+.services, .skills, .works {
+  -webkit-padding-before: 50px;
+          padding-block-start: 50px;
+}
+
+.card1 {
+  max-width: 400px;
+  min-height: 250px;
+}
+
+.card1__img-container {
+  width: 125px;
+  height: 250px;
+  background-size: contain;
+}
+
+.card1__title {
+  font-size: 2.4rem;
+}
+/*# sourceMappingURL=styles-tablet.css.map */

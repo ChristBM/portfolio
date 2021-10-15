@@ -1,0 +1,17 @@
+footer {
+    width: 100%;
+    height: 40px;
+}
+
+.holder {
+    width: 100%;
+    height: 100%;
+    padding: 0.5rem;
+    overflow-x: hidden;
+    @include font-style( $font-secundary, normal, $font-size-sub, 0, $gray-color );
+    background: linear-gradient(108.3deg, #70E8BD 23.49%, #66DBB1 76.7%);
+}
+
+.thanks {
+    animation: slide_footer 10s linear infinite;
+}

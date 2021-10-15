@@ -1,0 +1,51 @@
+.card {
+  display: grid;
+  min-width: 250px;
+  max-width: 350px;
+  height: 400px;
+  grid-template-rows: 5fr 1fr 4fr;
+  scroll-snap-align: center;
+  text-align: center;
+  border-radius: 10px;
+  border: 1px solid $main-color;
+  background-color: $white-color;
+  transition-duration: 0.5s;
+
+  &__icon {
+    grid-row: 1/2;
+    place-self: center;
+    width: 120px;
+    height: 120px;
+    border-radius: 25%;
+    box-shadow: 3px 3px 10px $shadow-gray-color, -3px -3px 10px white;
+  }
+
+  &__icon_img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+  }
+
+  &__title {
+    width: 100%;
+    height: 20px;
+    align-self: center;
+    padding-inline: 15px;
+    @include font-style( $font-princp, bold, $font-size-sub, 1px, $gray-color );
+  }
+
+  &__resum {
+    width: 100%;
+    height: 140px;
+    padding: 5px 15px 15px 15px;
+    text-align: justify;
+    @include font-style( $font-secundary, normal, $font-size-p, 1px, $gray-color );
+  }
+
+}
+
+.card:hover {
+  transition-duration: 0.3s;
+  transform: scale(1.1);
+  transition-timing-function: cubic-bezier(0.5, 2, 0.3, -0.3);
+}

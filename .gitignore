@@ -1,4 +1,3 @@
 *.ttf
 *.gif
-*.svg
-*.png
+.vscode

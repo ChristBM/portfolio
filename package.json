@@ -1,0 +1,47 @@
+{
+  "name": "github_pages",
+  "version": "1.0.0",
+  "description": "Mientras superaba los cursos de la escuela de desarrollo web y los retos que me iva proponiendo, decidí crear un lugar donde poder mostrar mis proyectos. Como resultado tengo esta página en GitHub Pages que me permite ir actualizándola constantemente con las habilidade, servicios que soy capaz de ofrecer y lo nuevo que vaya aprendiendo en este largo camino del desarrollo web.",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "webpack --config webpack.config.dev.js",
+    "watch": "npm run dev --watch",
+    "build": "webpack --config webpack.config.js",
+    "start": "webpack serve --config webpack.config.dev.js",
+    "profile": "npx webpack --profile --json > stats.json",
+    "analyzer": "npx webpack-bundle-analyzer stats.json",
+    "deploy": "gh-pages -d build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ChristBM/portfolio.git"
+  },
+  "keywords": [],
+  "author": "christian <christian.boffill@gamil.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ChristBM/portfolio/issues"
+  },
+  "homepage": "https://github.com/ChristBM/portfolio#readme",
+  "devDependencies": {
+    "@babel/core": "^7.15.8",
+    "@babel/plugin-transform-runtime": "^7.15.8",
+    "@babel/preset-env": "^7.15.8",
+    "babel-loader": "^8.2.2",
+    "copy-webpack-plugin": "^9.0.1",
+    "css-loader": "^6.4.0",
+    "css-minimizer-webpack-plugin": "^3.1.1",
+    "gh-pages": "^3.2.3",
+    "html-webpack-plugin": "^5.3.2",
+    "mini-css-extract-plugin": "^2.4.2",
+    "sass": "^1.43.2",
+    "sass-loader": "^12.2.0",
+    "terser-webpack-plugin": "^5.2.4",
+    "webpack": "^5.58.2",
+    "webpack-bundle-analyzer": "^4.5.0",
+    "webpack-cli": "^4.9.0",
+    "webpack-dev-server": "^4.3.1"
+  },
+  "homepage": "https://christbm.github.io/portfolio/"
+}

@@ -7,11 +7,8 @@
     <meta name="robots" content="index-follow">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Portfolio</title>
-    <link rel="shortcut icon" href="./src/assets/img/star.webp">
-    <link rel="stylesheet" href="./src/styles/css/styles-mobile.css">
-    <link rel="stylesheet" href="./src/styles/css/styles-tablet.css" media="screen and (min-width: 430px)">
-    <link rel="stylesheet" href="./src/styles/css/styles-desktop.css" media="screen and (min-width: 840px)">
+    <title><%= htmlWebpackPlugin.options.title %></title>
+    <link rel="shortcut icon" href="./assets/images/star.webp">
 </head>
 
 <body>
@@ -46,7 +43,7 @@
 
       <div class="introduction__image selectDisable">
         <div class="introduction__photo">
-          <img src="./src/assets/img/me.svg" alt="logo" width="120px" height="120px">
+          <img src="./assets/images/me.svg" alt="logo" width="120px" height="120px">
         </div>
       </div>
 
@@ -81,7 +78,7 @@
         <!-- Frontend React -->
         <article class="card">
           <div class="card__icon">
-            <img class="card__icon_img" src="./src/assets/img/services/react.svg" alt="react svg" loading="lazy">
+            <img class="card__icon_img" src="./assets/images/services/react.svg" alt="react svg" loading="lazy">
           </div>
           <p class="card__title">React Frontend</p>
           <p class="card__resum">React es genial. Es una libreria que te da las herramientas necesarias para el desarrollo de apps. Mi favorita :)</p>
@@ -90,7 +87,7 @@
         <!-- Frontend JavaScript -->
         <article class="card">
           <div class="card__icon">
-            <img class="card__icon_img" src="./src/assets/img/services/frontend.svg" alt="frontend svg" loading="lazy">
+            <img class="card__icon_img" src="./assets/images/services/frontend.svg" alt="frontend svg" loading="lazy">
           </div>
           <p class="card__title">Frontend</p>
           <p class="card__resum">Desarrollo aplicaciones web con JavaScript vanilla. Con JS se le da la magia que necesita tu app.</p>
@@ -99,7 +96,7 @@
         <!-- Website layout -->
         <article class="card">
           <div class="card__icon">
-            <img class="card__icon_img" src="./src/assets/img/services/layout.svg" alt="layout svg" loading="lazy">
+            <img class="card__icon_img" src="./assets/images/services/layout.svg" alt="layout svg" loading="lazy">
           </div>
           <p class="card__title">Website Layout</p>
           <p class="card__resum">Llevo a código el diseño usando HTML, CSS o SASS, usando buenas prácticas de maquetación.</p>
@@ -108,7 +105,7 @@
         <!-- User Interface design -->
         <article class="card">
             <div class="card__icon uid">
-              <img class="card__icon_img" src="./src/assets/img/services/interface.svg" alt="interface svg" loading="lazy">
+              <img class="card__icon_img" src="./assets/images/services/interface.svg" alt="interface svg" loading="lazy">
             </div>
             <p class="card__title">User Interface Design</p>
             <p class="card__resum">Conozco principios de diseño UI/UX y herramientas de diseño de app como Figma y Adobe XD.</p>
@@ -117,7 +114,7 @@
         <!-- Developer environment -->
         <article class="card">
           <div class="card__icon">
-            <img class="card__icon_img" src="./src/assets/img/services/environment.svg" alt="environment svg" loading="lazy">
+            <img class="card__icon_img" src="./assets/images/services/environment.svg" alt="environment svg" loading="lazy">
           </div>
           <p class="card__title">Dev Environment</p>
           <p class="card__resum">Uso la terminal de Linux para el desarrollo. Mi editor preferido es el VSC. Utilizo Git para control de versiones.</p>
@@ -126,7 +123,7 @@
         <!-- Hobbies -->
         <article class="card">
           <div class="card__icon">
-            <img class="card__icon_img" src="./src/assets/img/services/hobbies.svg" alt="hobbies svg" loading="lazy">
+            <img class="card__icon_img" src="./assets/images/services/hobbies.svg" alt="hobbies svg" loading="lazy">
           </div>
           <p class="card__title">Hobbies</p>
           <p class="card__resum">Además de programar, también me gustan tocar guitarra, el fútbol, conocer lugares nuevos, hacer nuevos amigos, ver animes, comer y hacer ejercicios.</p>
@@ -152,22 +149,22 @@
         <div class="skills__icon_container">
 
           <div class="minicard__container">
-            <img class="minicard__tool_icon" src="./src/assets/img/enviroment/linux-tux.svg" alt="linux" loading="lazy">
+            <img class="minicard__tool_icon" src="./assets/images/enviroment/linux-tux.svg" alt="linux" loading="lazy">
             <h3 class="minicard__subtitle">Linux Terminal</h3>
           </div>
 
           <div class="minicard__container">
-            <img class="minicard__tool_icon" src="./src/assets/img/enviroment/visual-studio-code.svg" alt="visual studio code" loading="lazy">
+            <img class="minicard__tool_icon" src="./assets/images/enviroment/visual-studio-code.svg" alt="visual studio code" loading="lazy">
             <h3 class="minicard__subtitle">Visual Studio Code</h3>
           </div>
 
           <div class="minicard__container">
-            <img class="minicard__tool_icon" src="./src/assets/img/enviroment/git-icon.svg" alt="git" loading="lazy">
+            <img class="minicard__tool_icon" src="./assets/images/enviroment/git-icon.svg" alt="git" loading="lazy">
             <h3 class="minicard__subtitle">Git</h3>
           </div>
 
           <div class="minicard__container">
-            <img class="minicard__tool_icon" src="./src/assets/img/enviroment/github-octocat.svg" alt="GitHub" loading="lazy">
+            <img class="minicard__tool_icon" src="./assets/images/enviroment/github-octocat.svg" alt="GitHub" loading="lazy">
             <h3 class="minicard__subtitle">GitHub</h3>
           </div>
 
@@ -182,17 +179,17 @@
         <div class="skills__icon_container">
 
           <div class="minicard__container">
-            <img class="minicard__tool_icon" src="./src/assets/img/design/adobe-xd.svg" alt="adobe xd loading="lazy">
+            <img class="minicard__tool_icon" src="./assets/images/design/adobe-xd.svg" alt="adobe xd" loading="lazy">
             <h3 class="minicard__subtitle">Adobe XD</h3>
           </div>
 
           <div class="minicard__container">
-            <img class="minicard__tool_icon" src="./src/assets/img/design/figma.svg" alt="figma" loading="lazy">
+            <img class="minicard__tool_icon" src="./assets/images/design/figma.svg" alt="figma" loading="lazy">
             <h3 class="minicard__subtitle">Figma</h3>
           </div>
 
           <div class="minicard__container">
-            <img class="minicard__tool_icon" src="./src/assets/img/design/svg.svg" alt="svg" loading="lazy">
+            <img class="minicard__tool_icon" src="./assets/images/design/svg.svg" alt="svg" loading="lazy">
             <h3 class="minicard__subtitle">SVG</h3>
           </div>
 
@@ -207,32 +204,32 @@
         <div class="skills__icon_container">
 
           <div class="minicard__container">
-            <img class="minicard__tool_icon" src="./src/assets/img/layout/html-5.svg" alt="html5" loading="lazy">
+            <img class="minicard__tool_icon" src="./assets/images/layout/html-5.svg" alt="html5" loading="lazy">
             <h3 class="minicard__subtitle">HTML5</h3>
           </div>
 
           <div class="minicard__container">
-            <img class="minicard__tool_icon" src="./src/assets/img/layout/css-3.svg" alt="css3" loading="lazy">
+            <img class="minicard__tool_icon" src="./assets/images/layout/css-3.svg" alt="css3" loading="lazy">
             <h3 class="minicard__subtitle">CSS3</h3>
           </div>
 
           <div class="minicard__container">
-            <img class="minicard__tool_icon" src="./src/assets/img/layout/sass.svg" alt="sass" loading="lazy">
+            <img class="minicard__tool_icon" src="./assets/images/layout/sass.svg" alt="sass" loading="lazy">
             <h3 class="minicard__subtitle">Sass</h3>
           </div>
 
           <div class="minicard__container">
-            <img class="minicard__tool_icon" src="./src/assets/img/layout/bem.svg" alt="bem" loading="lazy">
+            <img class="minicard__tool_icon" src="./assets/images/layout/bem.svg" alt="bem" loading="lazy">
             <h3 class="minicard__subtitle">BEM</h3>
           </div>
 
           <div class="minicard__container">
-            <img class="minicard__tool_icon" src="./src/assets/img/layout/bootstrap.svg" alt="bootstrap" loading="lazy">
+            <img class="minicard__tool_icon" src="./assets/images/layout/bootstrap.svg" alt="bootstrap" loading="lazy">
             <h3 class="minicard__subtitle">Bootstrap</h3>
           </div>
 
           <div class="minicard__container">
-            <img class="minicard__tool_icon" src="./src/assets/img/layout/tailwindcss-icon.svg" alt="tailwind" loading="lazy">
+            <img class="minicard__tool_icon" src="./assets/images/layout/tailwindcss-icon.svg" alt="tailwind" loading="lazy">
             <h3 class="minicard__subtitle">Tailwind</h3>
           </div>
 
@@ -247,42 +244,42 @@
         <div class="skills__icon_container">
 
           <div class="minicard__container">
-            <img class="minicard__tool_icon" src="./src/assets/img/frontend/chrome.svg" alt="chrome" loading="lazy">
+            <img class="minicard__tool_icon" src="./assets/images/frontend/chrome.svg" alt="chrome" loading="lazy">
             <h3 class="minicard__subtitle">Chrome Dev Tools</h3>
           </div>
 
           <div class="minicard__container">
-            <img class="minicard__tool_icon" src="./src/assets/img/frontend/javascript.svg" alt="javascript" loading="lazy">
+            <img class="minicard__tool_icon" src="./assets/images/frontend/javascript.svg" alt="javascript" loading="lazy">
             <h3 class="minicard__subtitle">JavaScript</h3>
           </div>
 
           <div class="minicard__container">
-            <img class="minicard__tool_icon" src="./src/assets/img/frontend/webpack.svg" alt="webpack" loading="lazy">
+            <img class="minicard__tool_icon" src="./assets/images/frontend/webpack.svg" alt="webpack" loading="lazy">
             <h3 class="minicard__subtitle">Webpack</h3>
           </div>
 
           <div class="minicard__container">
-            <img class="minicard__tool_icon" src="./src/assets/img/frontend/npm-icon.svg" alt="npm" loading="lazy">
+            <img class="minicard__tool_icon" src="./assets/images/frontend/npm-icon.svg" alt="npm" loading="lazy">
             <h3 class="minicard__subtitle">NPM</h3>
           </div>
 
           <div class="minicard__container">
-            <img class="minicard__tool_icon" src="./src/assets/img/frontend/webcomponents.svg" alt="webcomponents" loading="lazy">
+            <img class="minicard__tool_icon" src="./assets/images/frontend/webcomponents.svg" alt="webcomponents" loading="lazy">
             <h3 class="minicard__subtitle">Web Components</h3>
           </div>
 
           <div class="minicard__container">
-            <img class="minicard__tool_icon" src="./src/assets/img/frontend/babel.svg" alt="babel" loading="lazy">
+            <img class="minicard__tool_icon" src="./assets/images/frontend/babel.svg" alt="babel" loading="lazy">
             <h3 class="minicard__subtitle">Babel</h3>
           </div>
 
           <div class="minicard__container">
-            <img class="minicard__tool_icon" src="./src/assets/img/frontend/netlify.svg" alt="netlify" loading="lazy">
+            <img class="minicard__tool_icon" src="./assets/images/frontend/netlify.svg" alt="netlify" loading="lazy">
             <h3 class="minicard__subtitle">Netlify</h3>
           </div>
 
           <div class="minicard__container">
-            <img class="minicard__tool_icon" src="./src/assets/img/frontend/travis-ci.svg" alt="travis ci" loading="lazy">
+            <img class="minicard__tool_icon" src="./assets/images/frontend/travis-ci.svg" alt="travis ci" loading="lazy">
             <h3 class="minicard__subtitle">Travis CI</h3>
           </div>
 
@@ -297,7 +294,7 @@
         <div class="skills__icon_container">
 
           <div class="minicard__container">
-            <img class="minicard__tool_icon" src="./src/assets/img/react/react.svg" alt="react" loading="lazy">
+            <img class="minicard__tool_icon" src="./assets/images/react/react.svg" alt="react" loading="lazy">
             <h3 class="minicard__subtitle">React.js</h3>
           </div>
 
@@ -320,7 +317,7 @@
 
         <!-- ToDo-App -->
         <article class="card1">
-          <img class="card1__img-container" src="./src/assets/img/works/work12.webp" alt="work image" loading="lazy">
+          <img class="card1__img-container" src="./assets/images/works/work12.webp" alt="work image" loading="lazy">
           <div class="card1__texts">
             <h2 class="card1__title">ToDo-App</h2>
             <p class="card1__resum">Una sencilla aplicación de lista de tareas con Create React App. Usa el LocalStorage para almacenar los ToDos. Aplicando  buenas prácticas en React.</p>
@@ -337,7 +334,7 @@
 
         <!-- Lego Hero -->
         <article class="card1">
-          <img class="card1__img-container" src="./src/assets/img/works/work10.webp" alt="work image" loading="lazy">
+          <img class="card1__img-container" src="./assets/images/works/work10.webp" alt="work image" loading="lazy">
           <div class="card1__texts">
             <h2 class="card1__title">Lego Hero</h2>
             <p class="card1__resum">Una landing page con JavaScript Vanilla. Aplicando conocimientos de optimización web, animaciones, accesibilidad y webpack.</p>
@@ -351,7 +348,7 @@
 
         <!-- Web Component cbm-merchandise-card -->
         <article class="card1">
-          <img class="card1__img-container" src="./src/assets/img/works/work9.webp" alt="work image" loading="lazy">
+          <img class="card1__img-container" src="./assets/images/works/work9.webp" alt="work image" loading="lazy">
           <div class="card1__texts">
             <h2 class="card1__title">Merchandise card</h2>
             <p class="card1__resum">Un componente web nativo con temática de tarjeta de producto para e-commerce. Resultado de un reto del curso de Web Component con JavaScript en Platzi. </p>
@@ -365,7 +362,7 @@
 
         <!-- Workshop3 Weather App -->
         <article class="card1">
-          <img class="card1__img-container" src="./src/assets/img/works/work8.webp" alt="work image" loading="lazy">
+          <img class="card1__img-container" src="./assets/images/works/work8.webp" alt="work image" loading="lazy">
           <div class="card1__texts">
             <h2 class="card1__title">Weather App</h2>
             <p class="card1__resum">Ejercitando conocimientos en la manipulación del DOM y usando api.openweathermap en el curso de Manipulación del DOM de Platzi. Taller individual. </p>
@@ -382,7 +379,7 @@
 
         <!-- SPA Rick & Morty -->
         <article class="card1">
-          <img class="card1__img-container" src="./src/assets/img/works/work11.webp" alt="work image" loading="lazy">
+          <img class="card1__img-container" src="./assets/images/works/work11.webp" alt="work image" loading="lazy">
           <div class="card1__texts">
             <h2 class="card1__title">Rick & Morty</h2>
             <p class="card1__resum">Una SPA con JavaScript Vanilla elaborada en un curso de Platzy. Trabajo con routers, webpack, travis, API, manejo de hashes y manipulación del DOM.</p>
@@ -399,7 +396,7 @@
 
         <!-- Modular Calculator -->
         <article class="card1">
-          <img class="card1__img-container" src="./src/assets/img/works/work7.webp" alt="work image" loading="lazy">
+          <img class="card1__img-container" src="./assets/images/works/work7.webp" alt="work image" loading="lazy">
           <div class="card1__texts">
             <h2 class="card1__title">A Calculator</h2>
             <p class="card1__resum">Una sencilla calculadora modular a la cual se le pueden agregar nuevas funciones o se le pueden intercambiar los botones. Con un diseño moderno y agradable. </p>
@@ -416,7 +413,7 @@
 
         <!-- Workshop2 Lazy Loading -->
         <article class="card1">
-          <img class="card1__img-container" src="./src/assets/img/works/work6.webp" alt="work image" loading="lazy">
+          <img class="card1__img-container" src="./assets/images/works/work6.webp" alt="work image" loading="lazy">
           <div class="card1__texts">
             <h2 class="card1__title">Lazy Loading</h2>
             <p class="card1__resum">Ejercitando la manipulación del DOM y usando Snowpack Tailwind en el curso de Manipulación del DOM de Platzi. Carga imagenes aleatorias de zorros. </p>
@@ -433,7 +430,7 @@
 
         <!-- Workshop1 Tienda de aguacates -->
         <article class="card1">
-          <img class="card1__img-container" src="./src/assets/img/works/work5.webp" alt="work image" loading="lazy">
+          <img class="card1__img-container" src="./assets/images/works/work5.webp" alt="work image" loading="lazy">
           <div class="card1__texts">
             <h2 class="card1__title">mini-AVO</h2>
             <p class="card1__resum">Ejercitando la manipulación del DOM y usando Snowpack Tailwind en el curso de Manipulación del DOM de Platzi. Esta web es una "mini-tienda" de aguacates.</p>
@@ -450,7 +447,7 @@
 
         <!-- Animationland -->
         <article class="card1">
-          <img class="card1__img-container" src="./src/assets/img/works/work4.webp" alt="work image" loading="lazy">
+          <img class="card1__img-container" src="./assets/images/works/work4.webp" alt="work image" loading="lazy">
           <div class="card1__texts">
             <h2 class="card1__title">Animationland</h2>
             <p class="card1__resum">Les presento un sencillo juego hecho solo con CSS3 y un poco de HTML. Un divertido reto del Curso de Animaciones con CSS de Platzi. </p>
@@ -467,7 +464,7 @@
 
         <!-- My Portfolio -->
         <article class="card1">
-          <img class="card1__img-container" src="./src/assets/img/works/work3.webp" alt="work image" loading="lazy">
+          <img class="card1__img-container" src="./assets/images/works/work3.webp" alt="work image" loading="lazy">
           <div class="card1__texts">
             <h2 class="card1__title">My Portfolio</h2>
             <p class="card1__resum">Una forma de dejar constancia de mi trabajo y habilidades adquiridas en el desarrollo web. Y por si alguien necesita de mis servicios como desarrollador.</p>
@@ -484,7 +481,7 @@
 
         <!-- Batatabit -->
         <article class="card1">
-          <img class="card1__img-container" src="./src/assets/img/works/work1.webp" alt="work image" loading="lazy">
+          <img class="card1__img-container" src="./assets/images/works/work1.webp" alt="work image" loading="lazy">
           <div class="card1__texts">
             <h2 class="card1__title">Batatabit</h2>
             <p class="card1__resum">Durante el curso de Maquetación Mobile-First de Platzi nos tocó desarrollar la interfaz para la empresa Batatabit, aplicando las tendencias actuales de la maquetación web.</p>
@@ -499,7 +496,7 @@
 
         <!-- myBlog -->
         <article class="card1">
-          <img class="card1__img-container" src="./src/assets/img/works/work2.webp" alt="work image" loading="lazy">
+          <img class="card1__img-container" src="./assets/images/works/work2.webp" alt="work image" loading="lazy">
             <div class="card1__texts">
               <h2 class="card1__title">A blog</h2>
               <p class="card1__resum">Este es un blog completamente funcional y utilizable, es el resultado de un reto propuesto en el curso práctico de maquetación con CSS en Platzi. Usen el código si lo desean.</p>
@@ -527,29 +524,29 @@
       <div class="contact__container">
 
         <button class="contact__btn">
-          <a class="contact__download_link" href="./src/assets/img/presentation_card.webp" download="Contact Me" >Business Card</a>
+          <a class="contact__download_link" href="./assets/images/presentation_card.webp" download="Contact Me" >Business Card</a>
         </button>
 
         <div class="contact__social">
 
           <button class="contact__social_container">
             <a class="contact__social_link" href="http://www.linkedin.com/in/christian-boffill-78a21917b" aria-label="My linkedin" target="_blank" rel="noreferrer"></a>
-            <img class="contact__social_logo" src="./src/assets/img/social/linkedin.svg" alt="linkedin" loading="lazy">
+            <img class="contact__social_logo" src="./assets/images/social/linkedin.svg" alt="linkedin" loading="lazy">
           </button>
 
           <button class="contact__social_container">
             <a class="contact__social_link" href="https://github.com/ChristBM" aria-label="My GitHub" target="_blank" rel="noreferrer"></a>
-            <img class="contact__social_logo" src="./src/assets/img/social/githublogo.svg" alt="github" loading="lazy">
+            <img class="contact__social_logo" src="./assets/images/social/githublogo.svg" alt="github" loading="lazy">
           </button>
 
           <button class="contact__social_container">
             <a class="contact__social_link" href="https://platzi.com/p/ChristBM/" aria-label="My Platzi" target="_blank" rel="noreferrer"></a>
-            <img class="contact__social_logo" src="./src/assets/img/social/platzi.svg" alt="platzi" loading="lazy">
+            <img class="contact__social_logo" src="./assets/images/social/platzi.svg" alt="platzi" loading="lazy">
           </button>
 
           <button class="contact__social_container">
             <a class="contact__social_link" href="https://twitter.com/boffill_" aria-label="My Twitter" target="_blank" rel="noreferrer"></a>
-            <img class="contact__social_logo" src="./src/assets/img/social/twitter.svg" alt="twitter" loading="lazy">
+            <img class="contact__social_logo" src="./assets/images/social/twitter.svg" alt="twitter" loading="lazy">
           </button>
 
         </div>
@@ -578,25 +575,6 @@
           <div class="thanks">Thanks for watching :)</div>
       </div>
   </footer>
-
-  <script defer>
-
-    const arrow = document.querySelector('.goUp_arrow')
-
-    const goUp = () => window.scroll( { top:0, left:0, behavior:"smooth" } )
-
-    arrow.onclick = function() { goUp() }
-
-    window.onscroll = function () {
-      if( window.scrollY >= 489 ){
-        arrow.classList.remove("dontshow")
-      }
-      else if(window.scrollY < 489){
-        arrow.classList.add("dontshow")
-      }
-    }
-
-  </script>
 
 </body>
 

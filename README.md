@@ -51,6 +51,22 @@ Me interesa ir agregándole cosas nuevas al portafolio, tanto visuales como en e
 ## Contribuyedo :raising_hand:
 Me pueden contactar si se les ocurre alguna idea de mejora u optimización. Está abierto a cambios o sugerencias.
 
+## Instalación :electric_plug:
+Clonar el portafolio:
+```
+git clone https://github.com/ChristBM/portfolio.git
+ ```
+
+Instalar dependencias:
+```
+  npm install
+```
+
+Deploy local del portafolio:
+```
+   npm run start
+```
+
 ## Licencia :unlock:
 
 Copyright © 2021 [Christian Boffill](https://github.com/ChristBM)

@@ -38,8 +38,6 @@ Me interesa ir agregándole cosas nuevas al portafolio, tanto visuales como en e
 ## Recursos y Enlaces :fountain:
 [Tipografía Principal](https://fonts.google.com/specimen/KoHo?query=koho "KoHo-SemiBold")
 
-[Tipografía Secundaria](https://fonts.google.com/specimen/Lato?query=lato "Lato-Regular")
-
 [Layout de inspiración](https://dribbble.com/shots/6181158-Clean-portfolio-template)
 
 [Neumorphism](https://www.behance.net/gallery/92714821/FREE-Neumorphism-UI-kit-for-Figma?tracking_source=search_projects_recommended%7Cneumorphism)

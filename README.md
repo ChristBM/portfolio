@@ -1,6 +1,8 @@
 # Mi Protafolio :star:
 Mientras superaba los cursos de la escuela de desarrollo web y los retos que me iva proponiendo, decidí crear un lugar donde poder mostrar mis proyectos. Como resultado tengo esta página en GitHub Pages que me permite ir actualizándola constantemente con las habilidade, servicios que soy capaz de ofrecer y lo nuevo que vaya aprendiendo en este largo camino del desarrollo web.
 
+## Ver Portafolio :rocket:
+[Deploy](https://christbm.github.io/portfolio/)
 ## Técnicas de Diseño :black_nib:
 Quise utilizar algunas tendencias del diseño UI/UX:
 
@@ -26,7 +28,7 @@ Segú los consejos que personas que la han visitado, me recomiendan:
 * [x] Favicon
 * [x] Actualizar los enlaces a los trabajos
 
-## Futuro :rocket:
+## Futuro :stars:
 Me interesa ir agregándole cosas nuevas al portafolio, tanto visuales como en el código sin romper la estética inicial.
 
 1. Actualizar mis redes y los enlaces a ellas.
@@ -50,4 +52,7 @@ Me interesa ir agregándole cosas nuevas al portafolio, tanto visuales como en e
 Me pueden contactar si se les ocurre alguna idea de mejora u optimización. Está abierto a cambios o sugerencias.
 
 ## Licencia :unlock:
-[MIT](https://choosealicense.com/licenses/mit/)
+
+Copyright © 2021 [Christian Boffill](https://github.com/ChristBM)
+
+This project is [MIT](https://choosealicense.com/licenses/mit/) licensed

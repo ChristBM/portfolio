@@ -59,12 +59,12 @@ git clone https://github.com/ChristBM/portfolio.git
 
 Instalar dependencias:
 ```
-  npm install
+npm install
 ```
 
 Deploy local del portafolio:
 ```
-   npm run start
+npm run start
 ```
 
 ## Licencia :unlock:

@@ -67,7 +67,7 @@
     text-decoration: none;
     text-align: center;
     cursor: pointer;
-    @include font-style( $font-secundary, normal, $font-size-p, 1px, $gray-color );
+    @include font-style( $font-secundary, normal, $font-size-small, 1px, $gray-color );
   }
 
   &__links:active, &__list-elemnt:active {

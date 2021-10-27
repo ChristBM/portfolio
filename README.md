@@ -32,7 +32,7 @@ Me interesa ir agregándole cosas nuevas al portafolio, tanto visuales como en e
 1. Actualizar mis redes y los enlaces a ellas.
 2. Agregar un enlace en el menú a otra página web o aplicación web que planeo costruir para mostrar otras cosas que sé hacer.
 3. Seguir agregándole trabajos en la sección de Works, habildades en la sección Skills y los Services que esté más habituado a realizar.
-4. Puede ser que en un futuro no muy lejano lo construya con React y tenga un dominio propio.
+4. Puede ser que en un futuro no muy lejano lo construya con React y tenga un dominio propio.****
 ## Recursos y Enlaces :fountain:
 [Tipografía Principal](https://fonts.google.com/specimen/KoHo?query=koho "KoHo-SemiBold")
 

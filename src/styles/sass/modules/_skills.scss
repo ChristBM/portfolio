@@ -1,37 +1,23 @@
 .skills {
-  display: grid;
+  display: flex;
   width: 100%;
-  height: auto;
   margin-block-start: 60px;
   padding-block-start: 35px;
-  padding-inline: 40px;
-  grid-template-rows: auto repeat( 5, auto );
-  row-gap: 20px;
+  padding-inline: 5px;
+  justify-content: center;
+  align-items: center;
+
+  &__container{
+    display: flex;
+    width: 100%;
+    height: 100%;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+  }
 
   &__section-pos {
-    grid-row: 1/2;
-    place-self: center;
     margin-block-end: 0;
-  }
-
-  &__ecosystem {
-    grid-row: 2/3;
-  }
-
-  &__design {
-    grid-row: 3/4;
-  }
-
-  &__layout {
-    grid-row: 4/5;
-  }
-
-  &__javascript {
-    grid-row: 5/6;
-  }
-
-  &__react {
-    grid-row: 6/7;
   }
 
 }
@@ -46,9 +32,13 @@
   display: flex;
   width: 100%;
   height: auto;
-  flex-wrap: wrap;
-  justify-content: space-evenly;
-  gap: 10px;
+  padding: 20px 30px;
+  border: 1px solid $shadow-gray-color;
+  border-radius: 10px;
+  flex-flow: row wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
 }
 
 .minicard__container:hover {

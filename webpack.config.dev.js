@@ -51,7 +51,7 @@ module.exports = {
 
   plugins: [
     new HtmlWebpackPlugin({
-      title: 'My Portfolio',
+      title: '{ ChristBM }',
       filename: "index.html",
       template: "./src/index.ejs",
       inject: 'body',

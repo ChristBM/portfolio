@@ -35,11 +35,18 @@ module.exports = {
           use: [ MiniCssExtractPlugin.loader, "css-loader", "sass-loader" ],
         },
         {
-            test: /\.webp|svg$/i,
+            test: /\.(webp|svg)$/i,
             type: 'asset/resource',
             generator: {
                 filename: 'assets/images/[hash][ext][query]',
             }
+        },
+        {
+          test: /\.pdf$/i,
+          type: 'asset/resource',
+          generator: {
+            filename: 'assets/docs/[name][ext][query]',
+          }
         },
         {
             test: /\.(woff)$/,
@@ -52,7 +59,7 @@ module.exports = {
   },
   plugins: [
     new HtmlWebpackPlugin({
-      title: '{ ChristBM }',
+      title: '{ChristBM}',
       filename: "index.html",
       template: "./src/index.ejs",
       inject: 'body',

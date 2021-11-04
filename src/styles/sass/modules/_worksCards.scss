@@ -1,3 +1,5 @@
+@use "./_variables.scss" as *;
+
 .card1 {
   display: flex;
   width: 95%;
@@ -71,11 +73,11 @@
   }
 
   &__btn-icon_repo {
-    @include set-background( url('../../assets/img/github-icon.svg'), cover, center, no-repeat );
+    @include set-background( url('../../assets/img/github-icon.svg'), contain, center, no-repeat );
   }
 
   &__btn-icon_deploy {
-    @include set-background( url('../../assets/img/rocket-deploy.svg'), cover, center, no-repeat );
+    @include set-background( url('../../assets/img/rocket-deploy.svg'), contain, center, no-repeat );
   }
 
 }

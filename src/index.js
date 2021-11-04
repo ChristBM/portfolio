@@ -1,4 +1,5 @@
 import '@styles/styles-mobile.scss'
+import './assets/docs/ChristBM_CV.pdf'
 
 const arrow = document.querySelector('.goUp_arrow')
 

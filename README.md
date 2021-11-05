@@ -1,45 +1,47 @@
-# Mi Protafolio :star:
-Mientras superaba los cursos de la escuela de desarrollo web y los retos que me iva proponiendo, decidí crear un lugar donde poder mostrar mis proyectos. Como resultado tengo esta página en GitHub Pages que me permite ir actualizándola constantemente con las habilidade, servicios que soy capaz de ofrecer y lo nuevo que vaya aprendiendo en este largo camino del desarrollo web.
+# My Portfolio :star:
+While I was passing the web development school courses and the challenges that I was proposing myself, I decided to create a place where I could show my projects. As a result I have this page in GitHub Pages that allows me to constantly update it with the skills, services I am able to offer and the new things I am learning in this long road of web development.
 
-## Ver Portafolio :rocket:
+## View Portfolio :rocket:
 [Deploy](https://christbm.github.io/portfolio/)
-## Técnicas de Diseño :black_nib:
-Quise utilizar algunas tendencias del diseño UI/UX:
+
+## Design Techniques :black_nib:
+I wanted to use some UI/UX design trends:
 
 * Responsive Design & Mobile First
 * Neumorphism
-* Garantizar Performance y Accesibilidad
-* Simplicidad y Limpieza
+* Performance and Accessibility
+* Simplicity and cleanliness
 
-Agregándole mi toque particular comencé a darle la estética que me parecía adecuada para construir mi portafolio.
+Adding my particular touch I started to give it the aesthetics that I thought was appropriate to build my portfolio.
 
-Por tanto esta página está optimizada para diferentes dispositivos. Usa una estética moderna y simplificada. Tiene una puntuación bastante alta en Lighthouse de Chrome DevsTools.
+Therefore this page is optimized for different devices. It uses a modern and simplified aesthetic. It has a pretty high score in Chrome DevsTools Lighthouse.
 
-## Tareas de mejora :white_check_mark:
-Segú los consejos que personas que la han visitado, me recomiendan:
+## Improvement tasks :white_check_mark:
+According to the advice of people who have visited it, they recommend it to me:
 
-* [x] Menú Sticky
-* [x] Mejoras en los textos
-* [x] Espaciados de las Cards
-* [ ] Modo Nocturno
-* [x] Redes Sociales de Trabajo
-* [x] Flecha goToUp
-* [x] Transiciones o Animaciones
+* [x] Sticky Menu
+* [x] Text improvements
+* [x] Card Spacing
+* [ ] Night Mode
+* [x] Social Networking
+* [x] goToUp Arrow
+* [x] Transitions or Animations
 * [x] Favicon
-* [x] Actualizar los enlaces a los trabajos
-* [ ] Seleccionar Idiomas(ES/EN)
+* [x] Update links to jobs
+* [ ] Select Languages(ES/EN)
 
-## Futuro :stars:
-Me interesa ir agregándole cosas nuevas al portafolio, tanto visuales como en el código sin romper la estética inicial.
+## Future :stars:
+I'm interested in adding new things to the portfolio, both visually and in the code without breaking the initial aesthetics.
 
-1. Actualizar mis redes y los enlaces a ellas.
-2. Agregar un enlace en el menú a otra página web o aplicación web que planeo costruir para mostrar otras cosas que sé hacer.
-3. Seguir agregándole trabajos en la sección de Works, habildades en la sección Skills y los Services que esté más habituado a realizar.
-4. Puede ser que en un futuro no muy lejano lo construya con React y tenga un dominio propio.****
-## Recursos y Enlaces :fountain:
-[Tipografía Principal](https://fonts.google.com/specimen/KoHo?query=koho "KoHo-SemiBold")
+1. Update my networks and the links to them.
+2. Add a link in the menu to another web page or web application I plan to build to show other things I know how to do.
+3. Keep adding jobs in the Works section, skills in the Skills section and the Services I am more used to do.
+4. Maybe in the not too distant future I will build it with React and have a domain of my own.****
 
-[Layout de inspiración](https://dribbble.com/shots/6181158-Clean-portfolio-template)
+## Resources and Links :fountain:
+[Main Typography](https://fonts.google.com/specimen/KoHo?query=koho "KoHo-SemiBold")
+
+[Inspirational Layout](https://dribbble.com/shots/6181158-Clean-portfolio-template)
 
 [Neumorphism](https://www.behance.net/gallery/92714821/FREE-Neumorphism-UI-kit-for-Figma?tracking_source=search_projects_recommended%7Cneumorphism)
 
@@ -47,26 +49,26 @@ Me interesa ir agregándole cosas nuevas al portafolio, tanto visuales como en e
 
 [Icon](https://es.pngtree.com/so/vaso')
 
-## Contribuyedo :raising_hand:
-Me pueden contactar si se les ocurre alguna idea de mejora u optimización. Está abierto a cambios o sugerencias.
+## Contributing :raising_hand:
+You can contact me if you have any ideas for improvement or optimization. It is open to changes or suggestions.
 
-## Instalación :electric_plug:
-Clonar el portafolio:
+## Installation :electric_plug:
+Clone portfolio:
 ```
 git clone https://github.com/ChristBM/portfolio.git
  ```
 
-Instalar dependencias:
+Install dependencies:
 ```
 npm install
 ```
 
-Deploy local del portafolio:
+Local portfolio deploy:
 ```
 npm run start
 ```
 
-## Licencia :unlock:
+## License :unlock:
 
 Copyright © 2021 [Christian Boffill](https://github.com/ChristBM)
 

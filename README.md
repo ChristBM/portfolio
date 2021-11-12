@@ -29,7 +29,6 @@ According to the advice of people who have visited it, they recommend it to me:
 * [x] Favicon
 * [x] Actualizar los enlaces a los trabajos
 * [x] Update links to jobs
-* [ ] Select Languages(ES/EN)
 
 ## Future :stars:
 I'm interested in adding new things to the portfolio, both visually and in the code without breaking the initial aesthetics.

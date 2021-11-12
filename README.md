@@ -27,7 +27,6 @@ Segú los consejos que personas que la han visitado, me recomiendan:
 * [x] Transiciones o Animaciones
 * [x] Favicon
 * [x] Actualizar los enlaces a los trabajos
-* [ ] Seleccionar Idiomas(ES/EN)
 
 ## Futuro :stars:
 Me interesa ir agregándole cosas nuevas al portafolio, tanto visuales como en el código sin romper la estética inicial.

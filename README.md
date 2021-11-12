@@ -27,15 +27,12 @@ According to the advice of people who have visited it, they recommend it to me:
 * [x] goToUp Arrow
 * [x] Transitions or Animations
 * [x] Favicon
-<<<<<<< HEAD
 * [x] Actualizar los enlaces a los trabajos
-=======
 * [x] Update links to jobs
 * [ ] Select Languages(ES/EN)
 
 ## Future :stars:
 I'm interested in adding new things to the portfolio, both visually and in the code without breaking the initial aesthetics.
->>>>>>> 1b066c36083b1077d94859c8265127c35f4174f5
 
 1. Update my networks and the links to them.
 2. Add a link in the menu to another web page or web application I plan to build to show other things I know how to do.

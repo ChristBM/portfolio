@@ -1,1 +1,0 @@
-(()=>{"use strict";var o=document.querySelector(".goUp_arrow");o.onclick=function(){window.scroll({top:0,left:0,behavior:"smooth"})},window.onscroll=function(){window.scrollY>=489?o.classList.remove("dontshow"):window.scrollY<489&&o.classList.add("dontshow")}})();
